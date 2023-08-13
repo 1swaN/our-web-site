@@ -6,17 +6,20 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="simplebar.css">
     <link rel="stylesheet" href="settings.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="appereance.css">
+    <link rel="stylesheet" href="media.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper data-simplebar">
         <header class="header">
             <div class="header__container">
-                <a href="" class="header__logo"><i class="fa-solid fa-code"></i></a>
+                <a href="#" class="header__logo"><i class="fa-solid fa-code"></i></a>
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
@@ -31,7 +34,7 @@
                 </div>
             </div>
         </header>
-        <main class="page">
+        <div class="page">
             <section class="page__section greet-section">
                <div class="greet-container">
                     <p class="highlight heading-hl element-animation">Hello, world!</p>
@@ -118,8 +121,9 @@
                     <button class="form__btn form__control element-animation" type="submit">Say Hello!</button>
                 </form>
             </section>
-        </main>
+        </div>
     </div>
+    <script src="simplebar.js"></script>
     <script src="header.js"></script>
     <script src="script.js"></script>
     <script src="appereance.js"></script>

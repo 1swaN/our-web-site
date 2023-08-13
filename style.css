@@ -1,7 +1,4 @@
 
-
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -90,8 +87,6 @@ body{
 .sub-font{
   font-family: 'Quantico', sans-serif;
 }
-
-
 .greeting{
   position: relative;
   top: 120px;

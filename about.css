@@ -48,7 +48,8 @@
 .about__tech {
     float:left;
     width:49%;
-    list-style-type: '▸';
+    /* list-style-type: '▸'; */
+    list-style-type:disc;
     padding-inline-start: 0.5em;
     color: var(--aquamarine);
 }
