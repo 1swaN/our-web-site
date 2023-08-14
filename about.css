@@ -45,11 +45,25 @@
 .about__img{
     border-radius: 8px;
 }
+.about__techlist{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
 .about__tech {
-    float:left;
-    width:49%;
-    /* list-style-type: '▸'; */
-    list-style-type:disc;
-    padding-inline-start: 0.5em;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
     color: var(--aquamarine);
+}
+.about__tech::before{
+    content: '▸';
+    color: var(--aquamarine);
+    position: absolute;
+    left: 3px;
 }

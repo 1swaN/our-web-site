@@ -30,6 +30,11 @@
     }
     .about__techlist{
         margin: 0 auto;
+        width: 70%;
+        /* text-align: center; */
+    }
+    .about__tech{
+        font-size: 16px;
     }
     .contact-section{
         width: 90%;
